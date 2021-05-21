@@ -18,7 +18,7 @@ def cal():
 	    scores.append([])
 
 	for i in range(5):
-	    print("============fold{}==================".format(i+1))
+	    print("===========fold{}=================".format(i+1))
 	    train, vali, test = parser.get_fold(i)
 	    X, y, qid = train
 
